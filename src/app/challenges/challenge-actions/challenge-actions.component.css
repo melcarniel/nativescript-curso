@@ -1,0 +1,19 @@
+/* Add mobile styles for the component here.  */
+StackLayout {
+    margin-top: 135;
+}
+
+.first {
+    background: green;
+}
+
+.second {
+    background: red;
+}
+
+.third {
+    background: transparent;
+    border-color: transparent;
+    border-width: 1;
+    color: black;
+}

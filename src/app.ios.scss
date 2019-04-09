@@ -1,4 +1,5 @@
-@import "./app.common";
+@import "app.common";
+@import '~nativescript-theme-core/scss/platforms/index.ios';
 
 .btn {
     background: transparent;

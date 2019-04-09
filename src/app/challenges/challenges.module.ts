@@ -6,13 +6,15 @@ import { ChallengeTabsComponent } from './challenge-tabs/challenge-tabs.componen
 import { CurrentChallengeComponent } from './current-challenge/current-challenge.component';
 import { TodayComponent } from './today/today.component';
 import { SharedModule } from '../shared/shared.module';
+import { ChallengeActionsComponent } from './challenge-actions/challenge-actions.component';
 
 @NgModule({
     declarations: [
         ChallengeEditComponent,
         ChallengeTabsComponent,
         CurrentChallengeComponent,
-        TodayComponent
+        TodayComponent,
+        ChallengeActionsComponent
     ],
     imports: [
         NativeScriptCommonModule,
