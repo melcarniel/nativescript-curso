@@ -14,11 +14,11 @@ export class UIService {
     this._drawerState.next(null);
   }
 
-  setRootVCRef(vcRef: ViewContainerRef){
+  setRootVCRef(vcRef: ViewContainerRef) {
     this._rootVCRef = vcRef;
   }
 
-  getRootVCRef (){
+  getRootVCRef() {
     return this._rootVCRef;
   }
 }

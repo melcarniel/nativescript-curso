@@ -1,5 +1,13 @@
-<StackLayout>
-    <Button class="btn btn-primary btn-rounded-lg first" text="Completed"></Button>
-    <Button class="btn btn-primary btn-rounded-lg second" text="Failed"></Button>
-    <Button class="btn btn-primary btn-rounded-lg third" text="Reset"></Button>
-</StackLayout>
+<FlexboxLayout>
+  <Button
+    class="btn btn-success btn-rounded-lg"
+    text="Completed"
+    (tap)="onAction('complete')"
+  ></Button>
+  <Button
+    class="btn btn-fail btn-rounded-lg"
+    text="Failed"
+    (tap)="onAction('fail')"
+  ></Button>
+  <Button class="btn btn-flat" [text]="cancelText" (tap)="onAction('cancel')"></Button>
+</FlexboxLayout>

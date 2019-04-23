@@ -36,7 +36,6 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
         this.drawer.toggleDrawerState();
       }
     });
-
     this.uiService.setRootVCRef(this.vcRef);
   }
 
